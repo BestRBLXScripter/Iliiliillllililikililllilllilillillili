@@ -13,7 +13,7 @@ local Window = Rayfield:CreateWindow({
         Invite = "simonhub",  
         RememberJoins = false 
     },
-    KeySystem = false,         -- Set this to true to use our key system
+    KeySystem = true,         -- Set this to true to use our key system
     KeySettings = {
         Title = "SimoNHub Visual Key",
         Subtitle = "Key System",
